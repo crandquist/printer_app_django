@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def register(response):
-    return render()
+    return render('register.html')
